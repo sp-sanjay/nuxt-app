@@ -8,10 +8,4 @@ export default defineNuxtConfig({
   build: {
     transpile: ["primevue"],
   },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
 });
